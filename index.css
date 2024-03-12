@@ -1,0 +1,128 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+
+.fullPage {
+    width: 1440px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.el1 {
+    width: 1440px;
+    height: 800px;
+    grid-column: 1/span 2;
+    background-image:url(./assets/photo-1569201529241-f96205e2f2c6.png) ;
+}
+
+.el2 {  
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.el2Content {
+    width:445px;
+    height:285px;
+    background-image: url(./assets/Group\ 2.png);
+}
+
+.el3 {
+    height: 600px;
+    background-image: url(./assets/mae-mu-40NjbC-Q-cw-unsplash.png);
+}
+
+.el4 {
+    height: 600px;
+    background-image: url(./assets/chiqa.png);
+}
+
+.el5 {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.el5Content {
+    width:445px;
+    height: 285px;
+    background-image: url(./assets/Group\ 13.png);
+    
+}
+
+.el6 {
+    height: 600px;
+    background-image: url(./assets/alubali.png);
+}
+
+.el7 {
+    background-image: url(./assets/gogra.png);
+}
+
+.el8 {
+    width: auto;
+    height: auto;
+    grid-column: 1/span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.el8Content {
+    width: 1110px;
+    height: 447px;
+    background-image: url(./assets/Group\ 7.png);
+    margin-top: 120px;
+}
+
+.el9 {
+   height: 800px;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-column: 1/span 2;
+   background-color: brown;
+}
+
+.content1 {
+    width: 360px;
+    height: 447px;
+    background-image: url(./assets/Bitmap.jpg);
+}
+
+.content2 {
+    width: 360px;
+    height: 447px;
+    background-image: url(./assets/Bitmap\ \(1\).jpg);
+}
+
+.content3 {
+    width: 360px;
+    height: 447px;
+    background-image: url(./assets/Bitmap\ \(2\).jpg);
+}
+
+.content4 {
+    width: 360px;
+    height: 447px;
+    background-image: url(./assets/Bitmap.jpg);
+}
+
+.content5 {
+    width:1440px;
+    height: 350px;
+    grid-column: 1 / span 5 ;
+    background-image: url(./assets/Rectangle.png);
+}
